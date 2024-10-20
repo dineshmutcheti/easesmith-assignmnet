@@ -1,0 +1,26 @@
+.p-con {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+}
+.button {
+    margin: 0;
+    margin-left: 10px;
+    width: 139px;
+    height: 45px;
+    top: 719px;
+    left: 533px;
+    padding: (6px, 7px, 6px, 7px);
+    gap: 15px;
+    background-color: #165315;
+    color: white;
+    font-family: "Poppin";
+    
+    
+}
+.arrow {
+    width: 125px;
+    height: 24px;
+    color: white;
+}

@@ -1,0 +1,28 @@
+.search-bar {
+    position: absolute;
+    top: 30%;  /* Places the top of the search bar 50% from the top */
+    left: 50%; /* Places the left of the search bar 50% from the left */
+    transform: translate(-50%, -50%); /* Offsets the bar back by 50% of its height and width */
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    width: 30%;  /* You can adjust the width of the search bar here */
+    justify-content: space-between;
+}
+
+.search-input:focus {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+.search-icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.plant-icon {
+    width: 30px;
+    margin-left: 10px;
+}

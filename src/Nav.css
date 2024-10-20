@@ -1,0 +1,63 @@
+.chaperone-img {
+    height: 80px;
+    margin-left: 30px;
+
+}
+
+.nav-container{
+    width: 100%;
+    background-color: white;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+.logo-section {
+    display: flex;
+    align-items: center;
+    
+}
+.brand-name {
+    font-size: 1.5rem;
+    color: #2b663d;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links li {
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-links li:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.profile-cart-section {
+    display: flex;
+    gap: 30px;
+}
+
+.profile-img, .cart-image {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.profile-name, .cart-name {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: black;
+    padding-right: 10px;
+}
+
